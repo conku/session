@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"net/http"
 
+	"github.com/conku/qor/utils"
+	"github.com/conku/session"
 	gorillaContext "github.com/gorilla/context"
 	"github.com/gorilla/sessions"
-	"github.com/qor/qor/utils"
-	"github.com/qor/session"
 )
 
 // New initialize session manager for gorilla

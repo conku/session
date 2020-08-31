@@ -3,10 +3,10 @@ package manager
 import (
 	"net/http"
 
+	"github.com/conku/middlewares"
+	"github.com/conku/session"
+	"github.com/conku/session/gorilla"
 	"github.com/gorilla/sessions"
-	"github.com/qor/middlewares"
-	"github.com/qor/session"
-	"github.com/qor/session/gorilla"
 )
 
 // SessionManager default session manager

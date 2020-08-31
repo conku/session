@@ -3,9 +3,9 @@ package gorilla_test
 import (
 	"testing"
 
+	"github.com/conku/session/gorilla"
+	"github.com/conku/session/test"
 	"github.com/gorilla/sessions"
-	"github.com/qor/session/gorilla"
-	"github.com/qor/session/test"
 )
 
 func TestAll(t *testing.T) {
